@@ -28,7 +28,7 @@ jobs:
       - name: Generate Module Graphs
         run: |
           chmod +x ./generateModuleGraphs.sh
-          ./generateModuleGraphs.sh --no-configure-on-demand
+          ./generateModuleGraphs.sh 
 
       - name: Setup Local Branch
         run: |
